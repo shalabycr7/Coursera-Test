@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "raleway", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  transition: 0.5s ease;
+}
+.glyphicon,
+a {
+  color: #181d31;
+}
+.menu {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px 0 5px 0;
+  font-weight: bold;
+  color: #181d31;
+}
+.content {
+  margin: 4% 5% 0 5%;
+  background: #f0e9d2;
+  padding: 2px 15px 15px 15px;
+  border-radius: 8px;
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #181d31;
+}
+.ptext {
+  color: #181d31;
+  text-align: justify;
+}
+.navbar-inverse {
+  background-color: #f0e9d2;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #181d31;
+}
+.navbar-inverse .navbar-brand {
+  color: #181d31;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #181d31;
+}
+#myNavbar ul {
+  background-color: #e0dac5;
+}
+@media only screen and (max-width: 420px) {
+  #myNavbar ul li {
+    border-bottom: 1px solid #181d31;
+    text-align: center;
+  }
+}
